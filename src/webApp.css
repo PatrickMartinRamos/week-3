@@ -14,13 +14,20 @@ h1{
 
 .headerCenter{
     margin: auto;
-    width: 70%;
-    padding: 10px;
+    width: 50%;
+    padding-right: 500px;
+    justify-content: center;
+    display: flex;
+
 }
 .center {
+    background-color: black;
     margin: auto;
-    width: 70%;
-    padding: 0px;
+    width: 38%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
 }
 
 
@@ -29,13 +36,23 @@ h1{
     border: none;
     color: white;
     padding: 41px 103px;
-    text-align: center;
+    text-align: auto;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    float: left;
 }
 
 .button-group .button:hover {
     background-color: orange; /* Darker green on hover */
+}
+
+.whiteBox {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 770px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2pc;
 }
