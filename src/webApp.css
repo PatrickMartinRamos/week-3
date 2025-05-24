@@ -1,0 +1,41 @@
+body{
+    background-color: #ffcc00;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.headerText{
+    margin: auto;
+    
+}
+
+.headerCenter{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 0px;
+}
+
+
+.button-group .button{
+    background-color: black; ;
+    border: none;
+    color: white;
+    padding: 41px 103px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.button-group .button:hover {
+    background-color: orange; /* Darker green on hover */
+}
